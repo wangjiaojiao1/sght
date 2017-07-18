@@ -1,0 +1,54 @@
+*{margin: 0 auto;padding: 0 auto;font-family:"微软雅黑";}
+.box{width: 100%;background: #F9F9F9;}
+.header{width: 100%;height: 1.171rem;background: #D93244;color: #fff;text-align: center;line-height: 1.171rem;font-size: 0.479rem;border-bottom: 0.015rem solid #CAC9C8;}
+.header_left{width: 0.562rem;height: 0.453rem;float: left;}
+.header_left img{width: 100%;height: 100%;margin-left: 0.531rem;margin-top: 0.359rem;}
+.img{width: 6.812rem;height: 8.765rem;margin: 1.325rem auto;position: relative;}
+.img_top{width: 100%;height: 6.765rem;border-bottom: 0.031rem solid #3A1014;}
+.img_top img{width: 100%;height: 100%;}
+.img_bot{width: 100%;height: 1.315rem;float: left;margin-top: 0.525rem;}
+.img_bot span{font-size: 0.6rem;margin-top: 0.125rem;}
+.img_bot yang{font-size: 0.585rem;margin-top: 0.125rem;color: #F30808;}
+.img_bot del{color: #7B7A7A;font-size: 0.395rem;}
+.img2{width: 6.812rem;height: 8.765rem;margin: 1.325rem auto;position: relative;}
+.img2_top{width: 100%;height: 6.765rem;border-bottom: 0.031rem solid #3A1014;}
+.img2_top img{width: 100%;height: 100%;}
+.img2_bot{width: 100%;height: 1.315rem;float: left;margin-top: 0.525rem;}
+.img2_bot span{font-size: 0.6rem;margin-top: 0.125rem;}
+.img2_bot yang{font-size: 0.585rem;margin-top: 0.125rem;color: #F30808;}
+.img2_bot del{color: #7B7A7A;font-size: 0.395rem;}
+ul li{float: left;/*margin: 0 auto;*/width: 7.128rem;}
+
+.img3{width: 6.812rem;height: 8.765rem;margin: 1.325rem auto;position: relative;}
+.img3_top{width: 100%;height: 6.765rem;border-bottom: 0.031rem solid #3A1014;}
+.img3_top img{width: 100%;height: 100%;}
+.img3_bot{width: 100%;height: 1.315rem;float: left;margin-top: 0.525rem;}
+.img3_bot span{font-size: 0.6rem;margin-top: 0.125rem;}
+.img3_bot yang{font-size: 0.585rem;margin-top: 0.125rem;color: #F30808;}
+.img3s_bot del{color: #7B7A7A;font-size: 0.395rem;}
+
+.img4{width: 6.812rem;height: 8.765rem;margin: 1.325rem auto;position: relative;}
+.img4_top{width: 100%;height: 6.765rem;border-bottom: 0.031rem solid #3A1014;}
+.img4_top img{width: 100%;height: 100%;}
+.img4_bot{width: 100%;height: 1.315rem;float: left;margin-top: 0.525rem;}
+.img4_bot span{font-size: 0.6rem;margin-top: 0.125rem;}
+.img4_bot yang{font-size: 0.585rem;margin-top: 0.125rem;color: #F30808;}
+.img4_bot del{color: #7B7A7A;font-size: 0.395rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

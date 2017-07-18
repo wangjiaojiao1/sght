@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+			*{
+				padding:0;
+				border:0;
+				margin:0;
+				list-style:none;
+				font-family:"微软雅黑";
+			}
+			#wjj_box{
+				width:100%;
+				overflow:hidden;
+			}
+			header{
+				width:100%;
+				height:1.188rem;
+				background:#d93244;
+			}
+			header img{
+				width:0.562rem;
+				height:0.453rem;
+				margin-top:0.359rem;
+				margin-left:0.531rem;
+				float:left;
+			}
+			header p{
+				color:#ffffff;
+				font-size:0.484rem;
+				float:left;
+				line-height:1.188rem;
+				margin-left:3.237rem;
+				
+			}
+			#wjj_content{
+				width:100%;
+				height:21.424rem;
+				background:#eeeeee;
+			}
+			#wjj_content1{
+				width:11rem;
+				height:21.424rem;
+				margin:0 auto;
+			}
+			#fj{
+				color:#191919;
+				font-size:0.375rem;
+				margin-left:0.546rem;
+				padding-top:0.53125rem;
+			}
+			#list{
+				width:100%;
+				
+			}
+			#list p{
+				color:#757474;
+				font-size:0.328rem;
+				float:left;
+				margin-left:0.5625rem;
+				margin-top:0.172rem;
+			}
+			#one{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:0.531rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				clear:both;
+			}
+			#one p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#one p span{
+				display:block;
+				color:#25e72a;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+			#two{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:0.609rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				
+			}
+			#two p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#two p span{
+				display:block;
+				color:#e06b75;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+			#three{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:0.609rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				
+			}
+			#three p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#three p span{
+				display:block;
+				color:#25e72a;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+			#four{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:0.609rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				
+			}
+			#four p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#four p span{
+				display:block;
+				color:#ffea01;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+			#five{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:0.531rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				clear:both;
+			}
+			#five p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#five p span{
+				display:block;
+				color:#e06b75;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+			#six{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:0.609rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				
+			}
+			#six p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#six p span{
+				display:block;
+				color:#25e72a;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+			#seven{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:0.609rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				
+			}
+			#seven p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#seven p span{
+				display:block;
+				color:#e06b75;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+			#eight{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:0.609rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				
+			}
+			#eight p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#eight p span{
+				display:block;
+				color:#25e72a;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+			#nine{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:0.531rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				clear:both;
+			}
+			#nine p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#nine p span{
+				display:block;
+				color:#25e72a;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+			#ten{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:0.609rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				
+			}
+			#ten p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#ten p span{
+				display:block;
+				color:#e06b75;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+			#eleven{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:0.609rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				
+			}
+			#eleven p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#eleven p span{
+				display:block;
+				color:#25e72a;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+			#twelve{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:0.609rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				
+			}
+			#twelve p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#twelve p span{
+				display:block;
+				color:#25e72a;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+			#thrirteen{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:2.889rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				clear:both;
+			}
+			#thrirteen p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#thrirteen p span{
+				display:block;
+				color:#25e72a;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+			#fourteen{
+				width:1.75rem;
+				height:1.75rem;
+				float:left;
+				margin-left:0.609rem;
+				margin-top:0.4125rem;
+				border:rem solid #;
+				border-radius:0.0625rem;
+				background:#f9f9f9;
+				
+			}
+			#fourteen p{
+				color:#757474;
+				font-size:0.297rem;
+				text-align:center;
+				margin-top:0.5rem;
+			}
+			#fourteen p span{
+				display:block;
+				color:#25e72a;
+				font-size:0.234rem;
+				margin-top:0.234rem;
+				text-align:center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wjj_box">
+			<header>
+				<a href="1-shouye.html"><img src="images/tu1.png"></a>
+				<p>座位</p>
+			</header>
+			<div id="wjj_content">
+				<div id="wjj_content1">
+					<p id="fj">房间</p>
+				    <div id="list">
+					    <a href="座位.html"><p>清雅阁</p></a>
+				         <a href="座位.html"><p>庄研阁</p></a>
+				         <a href="座位.html"><p>琵琶阁</p></a>
+				         <a href="座位.html"></a>
+				         <a href="座位.html"><p>轩宇阁</p></a><p>清音阁</p>
+				         <a href="座位.html"><p>瑶花阁</p></a>
+				    </div>
+				    <div id="one">
+					    <p>1号桌<span>未就餐</span></p>
+				    </div>
+				    <div id="two">
+					    <p>2号桌<span>未就餐</span></p>
+				    </div>
+				    <div id="three">
+					    <p>3号桌<span>未就餐</span></p>
+					</div>
+					<div id="four">
+						 <p>4号桌<span>清台</span></p>
+					</div>
+					<div id="five">
+						 <p>5号桌<span>已就餐</span></p>
+					</div>
+					<div id="six">
+						 <p>6号桌<span>未就餐</span></p>
+					</div>
+					<div id="seven">
+						 <p>7号桌<span>已就餐</span></p>
+					</div>
+					<div id="eight">
+						 <p>8号桌<span>已就餐</span></p>
+					</div>
+					<div id="nine">
+						 <p>9号桌<span>未就餐</span></p>
+					</div>
+					<div id="ten">
+						 <p>10号桌<span>未就餐</span></p>
+					</div>
+					<div id="eleven">
+						 <p>11号桌<span>已就餐</span></p>
+					</div>
+					<div id="twelve">
+						 <p>12号桌<span>一就餐</span></p>
+					</div>
+					<div id="thrirteen">
+						 <p>13号桌<span>未就餐</span></p>
+					</div>
+					<div id="fourteen">
+						 <p>14号桌<span>已就餐</span></p>
+					</div>
+					</div>
+				
+			</div>
+		</div>
+		<script>(function(win) {
+	var docEl=win.document.documentElement;
+	var time;
+	function refreshRem() {
+		var width=docEl.clientWidth;
+		if(width> 768) {
+			// 最大宽度
+			width=768;
+		}
+		var rem=width / 10; // 将屏幕宽度分成10份， 1份为1rem
+		docEl.style.fontSize=rem+ 'px';
+		//把rem的值给根元素的font-size
+		///rem用font-size:75px来进行换算
+		// 40/75
+		// 20/37.5
+	}
+	win.addEventListener('resize', function() {
+		clearTimeout(time);
+		time=setTimeout(refreshRem, 1);
+	}
+	, false);
+	win.addEventListener('pageshow', function(e) {
+		if(e.persisted) {
+			clearTimeout(time);
+			time=setTimeout(refreshRem, 1);
+		}
+	}
+	, false);
+	refreshRem();
+}
+
+)(window);
+//onpageshow 事件类似于 onload 事件，onload 事件在页面第一次加载时触发， onpageshow 事件在每次加载页面时触发，即 onload 事件在页面从浏览器缓存中读取时不触发。
+//为了查看页面是直接从服务器上载入还是从缓存中读取，可以使用 PageTransitionEvent 对象的 persisted 属性来判断。 如果页面从浏览器的缓存中读取该属性返回 true，否则返回 false</script>
+	</body>
+</html>

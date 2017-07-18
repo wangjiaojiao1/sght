@@ -1,0 +1,6 @@
+.carousel_img{width:100%;position:relative;top:0;left:0;overflow:hidden;height:3.171rem;}
+.car_img{width:100%;height:100%;position:absolute;top:0;left:0;}
+.carousel_index{position:absolute;top:2.815rem;right:0;padding-right:0.375rem;height:0.187rem;}
+.carousel_icon{width:0.187rem;height:0.187rem;float:left;}
+.carousel_icon1{background:url(../image/DovmatchWhite.png) no-repeat;background-size:0.125rem;background-position:center center;}
+.carousel_icon2{background:url(../image/DovmatchGrey.png) no-repeat;background-size:0.125rem;background-position:center center;}

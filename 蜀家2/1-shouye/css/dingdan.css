@@ -1,0 +1,69 @@
+*{margin: 0 auto;padding: 0 auto;}
+.box{width: 100%;background: #F9F9F9;}
+.header{width: 100%;height: 1.171rem;background: #D93244;color: #fff;text-align: center;line-height: 1.171rem;font-size: 0.479rem;border-bottom: 0.015rem solid #CAC9C8;}
+.header_left{width: 0.562rem;height: 0.453rem;float: left;}
+.header_left img{width: 100%;height: 100%;margin-left: 0.531rem;margin-top: 0.059rem;}
+.one{width: 100%;height: 2.703rem;float: left;border-bottom: 0.031rem solid #CCCCCC;}
+.one_left{width: 2.015rem;height: 2.015rem;float: left;margin-top: 0.390rem;margin-left: 0.531rem;}
+.one_left img{width: 100%;hanging-punctuation: 100%;}
+.one_right{width: 6.406rem;height: 1.5rem;float: left;margin-top: 0.625rem;margin-left: 0.437rem;}
+.one_right p:first-of-type{font-size: 0.398rem;margin-top: 0.275rem;}
+.one_right p:last-of-type{font-size: 0.319rem;color: #D93244;margin-top: 0.225rem;}
+.one_right p span{float: right;}
+
+
+
+
+
+
+
+
+
+.jiesuan{width: 100%;height: 0.75rem;float: left;border: 0.015rem solid #CCCCCC;border-left: none;border-right: none;background: #F3F3F3;margin-top: 3.406rem;font-size: 0.399rem;}
+.jiesuan span:{font-size: 0.399rem;color: #838282;}
+.jiesuan_div{width: 1.453rem;height: 0.734rem;float: right;background: #D93244;margin-right: 0.531rem;text-align: center;line-height: 0.734rem;font-size: 0.319rem;color: #FFFFFF;}
+.footer{width: 100%;height: 1.296rem;float: left;border-top: 0.031rem solid #CCCCCC;background: #F3F3F3;margin-top: 0.281rem;}
+.footer_shouye{width: 0.812rem;height: 1.296rem;float: left;color: #DD4657;margin-left: 10%;text-align: center;font-size: 0.319rem;}
+.footer_shouye_img{width: 100%;height: 0.812rem;float: left;margin-top: 0.062rem;}
+.footer_shouye_img img{width: 100%;height: 100%;}
+.footer_gouwu{width: 0.812rem;height: 1.296rem;float: left;color: #7B7A7A;margin-left: 30%;text-align: center;font-size: 0.319rem;}
+.footer_gouwu_img{width: 100%;height: 0.812rem;float: left;margin-top: 0.062rem;}
+.footer_gouwu_img img{width: 100%;height: 100%;}
+.footer_zhifu{width: 0.912rem;height: 1.296rem;float: right;color: #7B7A7A;margin-right: 10%;font-size: 0.319rem;}
+.footer_zhifu_img{width: 100%;height: 0.812rem;float: left;margin-top: 0.062rem;}
+.footer_zhifu_img img{width: 100%;height: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
